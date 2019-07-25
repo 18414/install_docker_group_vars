@@ -2,7 +2,7 @@
     - name: login into docke hub registry
       docker_login:
         email: "bmahajan0@gmail.com"
-        username: "{{ dock_user }}"
+        username: "{{ doc_user }}"
         password: "{{ doc_passwd }}"
 
     - name: launch container App1 

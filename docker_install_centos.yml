@@ -2,7 +2,7 @@
   - hosts: all
     become: yes
     vars_files: 
-      - /home/ansible/install_docker/docker_pass.yml
+      - /home/ansible/install_docker_group_vars/docker_pass.yml
     tasks:
       - name: "add docker repository"
         get_url:
