@@ -1,0 +1,6 @@
+app1_port_inter: 80
+app1_port_exter: 8081
+
+app1_port_inter: 80
+app1_port_exter: 8082
+hip: localhost

@@ -1,0 +1,6 @@
+[all]
+localhost
+
+[all:vars]
+env="t1"
+
